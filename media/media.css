@@ -1,0 +1,289 @@
+@media(max-width:1200px) {
+    .logo {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .mobile_img {
+        order: 2;
+    }
+    .mobile_content {
+        justify-content: center;
+    }
+
+    .carousel-item.active {
+        width: 600px;
+        height: 400px;
+        top: 0;
+    }
+    .carousel-item {
+        width: 100%;
+        top:14%;
+    }
+    .carousel__content{
+height:399px;
+    }
+    .control__prev{
+        top:10%;
+
+    }
+    .control__next{
+        top:10%;
+        right: 18%;
+    }
+    .projects_menu_names {
+        justify-content: center;
+    }
+    .project_name{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .project_name::before{
+
+    }
+}
+
+@media(max-width:992px) {
+.partners__logo{
+    padding-bottom: 20px;
+}
+    .statistics_card{
+        margin-right: 20px;
+    }
+    .wordpress_title{
+        font-size: 20px;
+    }
+    .wordpress_text{
+        font-size: 14px;
+    }
+    .wordpress_button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .list_link {
+        margin-right: 10px;
+    }
+
+    .logo {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .header_list {
+        margin: 0 auto;
+    }
+    .carousel-item.active{
+        height: 300px;
+        width: 400px;
+        top:1%;
+        left:21%;
+    }
+    .carousel-item {
+        top:20%;
+    }
+    .control__prev{
+        top:12%;
+        left:18%;
+    }
+    .control__next{
+        top:12%;
+        right: 18%;
+    }
+    .carousel__content{
+        height:300px;
+    }
+    .control__icon{
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width:768px) {
+    .projects_title{
+        font-size: 20px;
+    }
+    .wordpress_content{
+        padding-bottom: 20px;
+        margin: 0 auto;
+        width:100%;
+        align-items: center;
+    }
+    .wordpress_text{
+        padding: 0;
+    }
+    .wordpress_theme{
+        padding-bottom: 20px;
+    }
+    .wordpress__content{
+        justify-content: center!important;
+    }
+    .carousel__title{
+        font-size: 25px;
+    }
+    .carousel__text{
+        font-size: 13px;
+    }
+    .header_title{
+       text-align: center;     
+    }
+    .header_content_text1{
+font-size: 25px;
+    }
+.header_title{
+    font-size: 30px;
+}
+.header_text{
+    font-size: 13px;
+    width:80%;
+}
+.header_button{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+    .header_burger {
+        display: block;
+    }
+
+    .logo_text {
+        display: none;
+    }
+
+    .header__content_top {
+        margin-bottom: 50px;
+    }
+
+    .search_icon {
+        display: block;
+    }
+
+    .header_list {
+        position: absolute;
+        left: 200%;
+        top: 100%;
+    }
+
+    .list_link_last {
+        display: none;
+    }
+
+    .list_link {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .carousel-item.active{
+        height: 200px;
+        width: 300px;
+        top:1%;
+        left:21%;
+    }
+    .carousel-item {
+        top:20%;
+    }
+    .control__prev{
+        top:12%;
+        left:18%;
+    }
+    .control__next{
+        top:12%;
+        right: 18%;
+    }
+    .carousel__content{
+        height:200px;
+    }
+    .control__icon{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:576px) {
+.wordpress_title {
+    font-size: 15px;
+}
+    .main {
+    padding-top: 30px;
+}
+.main_top_item {
+    margin-bottom: 30px;
+}
+.main_top_text {
+    padding-bottom: 10px;
+    margin: 0;
+}
+.main_top_title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header_content_text1{
+    font-size: 20px;
+}
+
+    .header_list {
+        flex-direction: column;
+    }
+
+    .header__content_top.active {
+        margin-bottom: 230px;
+    }
+
+    .header_list {
+        align-items: flex-start;
+        margin-bottom: 50px;
+    }
+
+    .list_link {
+        margin: 0;
+    }
+
+    .carousel-item.active{
+        height: 200px;
+        width: 300px;
+        top:1%;
+    }
+    .carousel__content{
+        height:200px;
+    }
+   
+    .main_top_text{
+        width:80%;
+    }
+
+    .main_bottom_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .main_bottom_post {
+        width:80%;
+    }
+    .main_bottom_imgs {
+        margin:0;
+    }
+    .mobile_img{
+    width:100%;
+}
+.footer_left, .footer_right  {
+    margin:0;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+.footer_list_item{
+    border:none;
+}
+
+
+.carousel-item.active{
+left:25%;
+}
+.control__prev {
+left:22%;
+}
+.control__next {
+right:15%;
+}
+.carousel__content{
+    width:100%;
+}
+}
