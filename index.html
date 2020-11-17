@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="header_scroll">
     <nav class="header_nav ">
       <div class="container">
         <div class="header__content_top d-flex flex-wrap align-items-center justify-content-between">
@@ -53,11 +53,12 @@
       </p>
       <a href="#" class="header_button">Get Started</a>
     </div>
+    <a href="#header_scroll" class="scroll_top_button"><i class="far fa-arrow-alt-to-top scroll_icon"></i></a>
   </header>
   <main class="main">
     <section class="main_top container" id="main_top_drop">
       <div class="main_top_item col-xl-3 col-sm-5 col-12">
-        <a href="" class="main_top_link"><i class="far fa-pencil-alt icons"></i></a>
+        <a href="#" class="main_top_link"><i class="far fa-pencil-alt icons"></i></a>
         <h1 class="main_top_title">Web & App Design</h1>
         <p class="main_top_text">
           Nam liber tempor cum soluta nobis eleifend option congue nihil
@@ -65,7 +66,7 @@
         </p>
       </div>
       <div class="main_top_item col-xl-3 col-sm-5 col-12">
-        <a href="" class="main_top_link"><i class="far fa-books icons"></i></a>
+        <a href="#" class="main_top_link"><i class="far fa-books icons"></i></a>
         <h1 class="main_top_title">Web & App Design</h1>
         <p class="main_top_text">
           Nam liber tempor cum soluta nobis eleifend option congue nihil
@@ -73,7 +74,7 @@
         </p>
       </div>
       <div class="main_top_item col-xl-3 col-sm-5 col-12">
-        <a href="" class="main_top_link"><i class="fas fa-cog icons"></i></a>
+        <a href="#" class="main_top_link"><i class="fas fa-cog icons"></i></a>
         <h1 class="main_top_title">Web & App Design</h1>
         <p class="main_top_text">
           Nam liber tempor cum soluta nobis eleifend option congue nihil
@@ -81,7 +82,7 @@
         </p>
       </div>
       <div class="main_top_item col-xl-3 col-sm-5 col-12">
-        <a href="" class="main_top_link"><i class="fas fa-briefcase icons"></i></a>
+        <a href="#" class="main_top_link"><i class="fas fa-briefcase icons"></i></a>
         <h1 class="main_top_title">Web & App Design</h1>
         <p class="main_top_text">
           Nam liber tempor cum soluta nobis eleifend option congue nihil
@@ -116,10 +117,12 @@
               <img src="img/carousel-right.png" class="d-block carousel__img" alt="..." />
             </div>
           </div>
-          <a class="carousel-control-prev control__prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <a class="carousel-control-prev control__prev" href="#carouselExampleIndicators" role="button"
+            data-slide="prev">
             <i class="fas fa-chevron-left control__icon"></i>
           </a>
-          <a class="carousel-control-next control__next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <a class="carousel-control-next control__next" href="#carouselExampleIndicators" role="button"
+            data-slide="next">
             <i class="fas fa-chevron-right control__icon"></i>
           </a>
         </div>
@@ -136,7 +139,7 @@
               Don't Forget to Rate the Template. Thanks so much!
             </p>
           </div>
-          <a href="" class="wordpress_button">Purchase Now</a>
+          <a href="#" class="wordpress_button">Purchase Now</a>
         </div>
       </div>
     </section>
@@ -152,19 +155,24 @@
 
         <ul class="nav nav-pills mb-3 projects_menu_names col-lg-8 col-sm-12" id="pills-tab" role="tablist">
           <li class="nav-item project_name" role="presentation">
-            <a class="nav-link projects_link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">All</a>
+            <a class="nav-link projects_link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+              role="tab" aria-controls="pills-home" aria-selected="true">All</a>
           </li>
           <li class="nav-item project_name" role="presentation">
-            <a class="nav-link projects_link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Web Design</a>
+            <a class="nav-link projects_link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+              aria-controls="pills-profile" aria-selected="false">Web Design</a>
           </li>
           <li class="nav-item project_name" role="presentation">
-            <a class="nav-link projects_link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Mobile App</a>
+            <a class="nav-link projects_link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+              aria-controls="pills-contact" aria-selected="false">Mobile App</a>
           </li>
           <li class="nav-item project_name" role="presentation">
-            <a class="nav-link projects_link" id="pills-illustration-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Illustration</a>
+            <a class="nav-link projects_link" id="pills-illustration-tab" data-toggle="pill" href="#pills-contact"
+              role="tab" aria-controls="pills-contact" aria-selected="false">Illustration</a>
           </li>
           <li class="nav-item project_name" role="presentation">
-            <a class="nav-link projects_link" id="pills-photo-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Photography</a>
+            <a class="nav-link projects_link" id="pills-photo-tab" data-toggle="pill" href="#pills-contact" role="tab"
+              aria-controls="pills-contact" aria-selected="false">Photography</a>
           </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
@@ -172,7 +180,8 @@
             <div class="project_card row">
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo1.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
                 <div class="project_card_bottom">
                   <h1 class="project_card_title">Claritas Etiam Processus</h1>
@@ -181,7 +190,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo2.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -191,7 +201,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo3.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -201,7 +212,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo4.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -211,7 +223,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo5.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -221,7 +234,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo6.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -235,7 +249,8 @@
             <div class="project_card row">
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo1.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -245,7 +260,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo2.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -255,7 +271,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo3.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -265,7 +282,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo4.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -275,7 +293,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo5.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -285,7 +304,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo6.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -299,7 +319,8 @@
             <div class="project_card row">
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo1.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -309,7 +330,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo2.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -319,7 +341,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo3.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -329,7 +352,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo4.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -339,7 +363,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo5.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -349,7 +374,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo6.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -363,7 +389,8 @@
             <div class="project_card row">
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo1.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -373,7 +400,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo2.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -383,7 +411,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo3.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -393,7 +422,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo4.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -403,7 +433,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo5.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -413,7 +444,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo6.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -427,7 +459,8 @@
             <div class="project_card row">
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo1.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -437,7 +470,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo2.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -447,7 +481,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo3.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -457,7 +492,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo4.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -467,7 +503,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo5.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -477,7 +514,8 @@
               </div>
               <div class="project_card_item col-xl-4 col-sm-6">
                 <div class="project_img"><img class="project__img" src="img/project_photo6.png" alt="" />
-                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img src="img/lupa_icon.png" alt=""></div>
+                  <div class="project_hover_effect"><img src="img/link_icon.png" class="link_icon" alt=""><img
+                      src="img/lupa_icon.png" alt=""></div>
                 </div>
 
                 <div class="project_card_bottom">
@@ -586,7 +624,8 @@
               <p class="post_card_item-text">Claritas est etiam processus dynamicus, qui sequitur mutationem
                 consuetudium.
               </p>
-              <a href="#" class="post_card_link">Read More <span class="post_link_span"><i class="fas fa-caret-right"></i></span></a>
+              <a href="#" class="post_card_link">Read More <span class="post_link_span"><i
+                    class="fas fa-caret-right"></i></span></a>
             </div>
             <div class="post_calendar">
               <div class="post_num">30</div>
@@ -600,7 +639,8 @@
               <p class="post_card_item-text">Claritas est etiam processus dynamicus, qui sequitur mutationem
                 consuetudium.
               </p>
-              <a href="#" class="post_card_link">Read More <span class="post_link_span"><i class="fas fa-caret-right"></i></span></a>
+              <a href="#" class="post_card_link">Read More <span class="post_link_span"><i
+                    class="fas fa-caret-right"></i></span></a>
             </div>
             <div class="post_calendar">
               <div class="post_num">30</div>
@@ -614,7 +654,8 @@
               <p class="post_card_item-text">Claritas est etiam processus dynamicus, qui sequitur mutationem
                 consuetudium.
               </p>
-              <a href="#" class="post_card_link">Read More <span class="post_link_span"><i class="fas fa-caret-right"></i></span></a>
+              <a href="#" class="post_card_link">Read More <span class="post_link_span"><i
+                    class="fas fa-caret-right"></i></span></a>
             </div>
             <div class="post_calendar">
               <div class="post_num">30</div>
@@ -627,10 +668,14 @@
     <div class="partners">
       <div class="container">
         <div class="partners_logos row align-items-center justify-content-between">
-          <div class="partners__logo col-lg-3 col-sm-6 d-flex justify-content-center"><img src="img/partner_logo1.png" alt=""></div>
-          <div class="partners__logo col-lg-3 col-sm-6 d-flex justify-content-center"><img src="img/partner_logo2.png" alt=""></div>
-          <div class="partners__logo col-lg-3 col-sm-6 d-flex justify-content-center"><img src="img/partner_logo3.png" alt=""></div>
-          <div class="partners__logo col-lg-3 col-sm-6 d-flex justify-content-center"><img src="img/partner_logo4.png" alt=""></div>
+          <div class="partners__logo col-lg-3 col-sm-6 d-flex justify-content-center"><img src="img/partner_logo1.png"
+              alt=""></div>
+          <div class="partners__logo col-lg-3 col-sm-6 d-flex justify-content-center"><img src="img/partner_logo2.png"
+              alt=""></div>
+          <div class="partners__logo col-lg-3 col-sm-6 d-flex justify-content-center"><img src="img/partner_logo3.png"
+              alt=""></div>
+          <div class="partners__logo col-lg-3 col-sm-6 d-flex justify-content-center"><img src="img/partner_logo4.png"
+              alt=""></div>
         </div>
       </div>
     </div>
@@ -638,7 +683,7 @@
       <div class="container">
         <div class="row justify-content-between">
           <div class="main_bottom_item col-lg-3 col-sm-4">
-            <a href="" class="logo d-flex align-items-center">
+            <a href="#" class="logo d-flex align-items-center">
               <img src="img/header_logo.png" alt="" />
               <div class="logo_text">Waxom</div>
             </a>
@@ -647,7 +692,8 @@
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit
               lobortis claritatem.
             </div>
-            <a href="#" class="post_card_link">Read More <span class="post_link_span"><i class="fas fa-caret-right"></i></span></a>
+            <a href="#" class="post_card_link">Read More <span class="post_link_span"><i
+                  class="fas fa-caret-right"></i></span></a>
           </div>
           <div class="main_bottom_item col-lg-3 col-sm-4">
             <h1 class="main_bottom_item_title middle_title">Recent Posts</h1>
@@ -674,14 +720,14 @@
             <h1 class="main_bottom_item_title">Recent Posts</h1>
             <div class="main_bottom_post">
               <div class="main_bottom_text third_column_text">
-                <a href="" class="twitter_link">@waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet
+                <a href="#" class="twitter_link">@waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet
                 doming
               </div>
               <div class="date third_column_date">3 mins ago</div>
             </div>
             <div class="main_bottom_post middle_post">
               <div class="main_bottom_text third_column_text">
-                Mirum est <a href="" class="twitter_link">#envato</a> notare quam littera gothica, quam nunc putamus
+                Mirum est <a href="#" class="twitter_link">#envato</a> notare quam littera gothica, quam nunc putamus
                 parum anteposuerit litterarum
               </div>
               <div class="date third_column_date">3 mins ago</div>
@@ -713,7 +759,7 @@
           <li class="footer_list_item">Copyright © 2015 <span class="footer_span">Waxom</span> </li>
           <li class="footer_list_item"><a href="#" class="footer_link">Privacy Policy</a></li>
           <li class="footer_list_item"><a href="#" class="footer_link">FAQ</a></li>
-          <li class="footer_list_item border-0"><a href="" class="footer_link">Support</a></li>
+          <li class="footer_list_item border-0"><a href="#" class="footer_link">Support</a></li>
         </ul>
         <ul class="footer_right row">
           <li class="footer_list_item">Designed by <span class="footer_span">ThemeFire</span></li>
@@ -724,8 +770,12 @@
   </footer>
 
   <!-- jQuery and JS bundle w/ Popper.js -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
 

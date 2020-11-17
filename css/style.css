@@ -11,6 +11,22 @@ a:hover {
 html{
     scroll-behavior: smooth;
 }
+.scroll_top_button{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    height: 50px;
+    width:50px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.scroll_icon{
+    color:white;
+    font-size: 20px;
+}
 /*============================ header ============================*/
 .header {
     background: url(../img/bg_img.png);
