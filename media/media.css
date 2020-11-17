@@ -260,6 +260,7 @@
 
     .video {
         object-fit: initial;
+        height: 100%;
     }
 
     .video_block {
