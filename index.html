@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="fontawesomePRO/css/all.min.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="media/media.css" />
+  <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -56,7 +57,7 @@
     <a href="#header_scroll" class="scroll_top_button"><i class="far fa-arrow-alt-to-top scroll_icon"></i></a>
   </header>
   <main class="main">
-    <section class="main_top container" id="main_top_drop">
+    <section class="main_top container wow flip" id="main_top_drop">
       <div class="main_top_item col-xl-3 col-sm-5 col-12">
         <a href="#" class="main_top_link"><i class="far fa-pencil-alt icons"></i></a>
         <h1 class="main_top_title">Web & App Design</h1>
@@ -91,7 +92,7 @@
       </div>
     </section>
 
-    <section class="main_carousel" id="carousel_drop">
+    <section class="main_carousel wow flash" id="carousel_drop">
       <div class="container">
         <h1 class="carousel__title">Waxom is Realization of your Ideas.</h1>
         <p class="carousel__text">
@@ -144,7 +145,7 @@
       </div>
     </section>
 
-    <section class="projects" id="project_drop">
+    <section class="projects wow wobble" id="project_drop">
       <div class="container">
         <h1 class="projects_title">Our Latest Projects.</h1>
         <p class="projects_text">
@@ -528,7 +529,7 @@
         </div>
       </div>
     </section>
-    <div class="video_block" id="video_drop">
+    <div class="video_block wow bounceOutLeft" id="video_drop">
       <video src="video/main_video.mp4" class="video" poster="img/photo.png"></video>
       <div class="video_text col-6">
         <img class="play_icon play" src="img/play_icon.png" alt="" />
@@ -541,7 +542,7 @@
       </div>
     </div>
 
-    <section class="mobile" id="mobile_drop">
+    <section class="mobile wow lightSpeedOutLeft" id="mobile_drop">
       <div class="container">
         <div class="row mobile_content">
           <img src="img/hand.png" class="mobile_img" alt="" />
@@ -577,7 +578,7 @@
       </div>
     </section>
 
-    <div class="statistics">
+    <div class="statistics wow rotateIn" >
       <div class="container">
         <div class="d-flex justify-content-around flex-wrap">
           <div class="statistics_card d-flex flex-column align-items-center">
@@ -609,7 +610,7 @@
       </div>
     </div>
 
-    <section class="posts text-center">
+    <section class="posts text-center wow slideInUp">
       <div class="container">
         <h1 class="posts_title ">Recent Posts.</h1>
         <p class="posts_text text-center m-auto col-8">Investigationes demonstraverunt lectores legere me lius quod ii
@@ -665,7 +666,7 @@
         </div>
       </div>
     </section>
-    <div class="partners">
+    <div class="partners wow zoomOutUp">
       <div class="container">
         <div class="partners_logos row align-items-center justify-content-between">
           <div class="partners__logo col-lg-3 col-sm-6 d-flex justify-content-center"><img src="img/partner_logo1.png"
@@ -679,7 +680,7 @@
         </div>
       </div>
     </div>
-    <div class="main_bottom" id="main_bottom_drop">
+    <div class="main_bottom wow rollIn" id="main_bottom_drop">
       <div class="container">
         <div class="row justify-content-between">
           <div class="main_bottom_item col-lg-3 col-sm-4">
@@ -752,7 +753,7 @@
       </div>
     </div>
   </main>
-  <footer class="footer" id="footer_drop">
+  <footer class="footer wow jello" id="footer_drop">
     <div class="container">
       <div class="footer_content row justify-content-between">
         <ul class="footer_left row ">
@@ -777,6 +778,11 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
+
+  <script src="js/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
 </body>
 
 </html>
